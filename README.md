@@ -34,4 +34,5 @@ The easiest way to deploy your Plasmo extension is to use the built-in [bpp](htt
 
 ## ANRG ->
 copy contents from envfile.txt to .env.development
+Run it using `npm run dev`
 main file is src/popup.tsx
