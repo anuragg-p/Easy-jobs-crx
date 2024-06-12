@@ -8,7 +8,7 @@ import Options from "./options.tsx"
 
 function IndexPopup() {
   return (
-    <div className="plasmo-flex plasmo-items-center plasmo-justify-center plasmo-h-[400px] plasmo-w-[400px]">
+    <div className="plasmo-flex plasmo-items-center plasmo-justify-center h-[400px] w-[400px]">
       <Options />
     </div>
   )
