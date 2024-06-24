@@ -1,8 +1,8 @@
 {
-  "name": "easy-jobs-plasmo",
-  "displayName": "Easy jobs plasmo",
+  "name": "LOYI",
+  "displayName": "LOYI",
   "version": "0.0.1",
-  "description": "An Extension to save jobs",
+  "description": "An extension to add GPT generated text on inputs",
   "author": "anurag@codezinc.dev",
   "scripts": {
     "dev": "plasmo dev",
@@ -31,7 +31,15 @@
   },
   "manifest": {
     "host_permissions": [
-      "https://*/*"
+      "https://*/*",
+      "*://*.chatgpt.com/*"
+    ],
+    "permissions": [
+      "scripting",
+      "activeTab",
+      "webRequest",
+      "webRequestBlocking",
+      "*://*.chatgpt.com/*"
     ],
     "key": "$CRX_PUBLIC_KEY",
     "oauth2": {

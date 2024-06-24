@@ -4,7 +4,7 @@ import { CountButton } from "~features/count-button"
 
 import "~style.css"
 
-import Options from "./options.tsx"
+import Options from "./options"
 
 function IndexPopup() {
   return (
